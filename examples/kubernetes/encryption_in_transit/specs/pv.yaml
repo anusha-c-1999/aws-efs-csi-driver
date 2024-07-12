@@ -12,6 +12,6 @@ spec:
   storageClassName: efs-sc
   csi:
     driver: efs.csi.aws.com
-    volumeHandle: fs-4af69aab
+    volumeHandle: fs-0654b2aea85c46b5c
     volumeAttributes:
       encryptInTransit: "true"
